@@ -2,11 +2,8 @@
 
 Implementation of night mode photography algorithm utilizing histogram equalization, image registration, and Mertens exposure fusion.
 
-**Samsung's auto mode**
-![Auto_Garden](https://github.com/eraraya-ricardo/nightmode-exposure-fusion/blob/main/Kebun/auto_samsung.jpg)
-
-**Resulting image from the algorithm (with the same hardware)**
-![Algo_Garden](https://github.com/eraraya-ricardo/nightmode-exposure-fusion/blob/main/Kebun/fusion_mertens_filtered.jpg)
+**Left: Samsung's auto mode, Right: Resulting image from the algorithm (with the same hardware)**
+![Full_Garden](https://github.com/eraraya-ricardo/nightmode-exposure-fusion/blob/main/Kebun/comparison_full.jpg)
 
 In short, the algorithm is as follow: <br>
 A. Color Conversion <br>
