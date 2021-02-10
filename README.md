@@ -4,6 +4,8 @@ Implementation of night mode photography algorithm utilizing histogram equalizat
 
 **Left: Samsung's auto mode, Right: Resulting image from the algorithm (with the same hardware)**
 ![Full_Garden](https://github.com/eraraya-ricardo/nightmode-exposure-fusion/blob/main/Kebun/comparison_full.jpg)
+![Sign_Garden](https://github.com/eraraya-ricardo/nightmode-exposure-fusion/blob/main/Kebun/comparison_sign.jpg)
+![Tree_Garden](https://github.com/eraraya-ricardo/nightmode-exposure-fusion/blob/main/Kebun/comparison_tree.jpg)
 
 In short, the algorithm is as follow: <br>
 A. Color Conversion <br>
