@@ -14,11 +14,11 @@ Implementation of night mode photography algorithm utilizing histogram equalizat
 In short, the algorithm is as follow: <br>
 #### A. Color Conversion <br>
 1. A series of RGB images are taken with a different value of exposure time. <br>
-2. A set of new images (GS Images) is created by converting the RGB images to grayscale images and applying histogram equalization to them. <br>
+2. A set of new images (GS Images) is created by converting the RGB images to grayscale images and applying histogram equalization. <br>
 
 #### B. Image Registration <br>
 The images need to be aligned to cope with little spatial shifts between images because of shaking hands. <br>
-1. The first GS image is taken as the frame of reference. Fourier transforms this image from spatial to the frequency domain. Let's call this image "reference." <br>
+1. The first GS image is taken as the frame of reference. Fourier transforms this image from spatial to frequency domain. Let's call this image "reference." <br>
 2. For the rest of the GS images: <br>
 - Fourier transforms the image from spatial domain to frequency domain.
 - Obtains the normalized cross-correlation matrix by inverse Fourier transforming the cross-power spectrum between this image and the reference.
