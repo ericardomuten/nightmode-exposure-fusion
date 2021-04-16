@@ -29,8 +29,6 @@ The images need to be aligned to cope with little spatial shifts between images 
 1. Mertens exposure fusion algorithm[[1]](https://dl.acm.org/doi/abs/10.1109/PG.2007.23) is carried out using the first RGB image (RGB source of the reference) and all image registration's output as the input.
 2. A Gaussian filter is applied to smooth out the resulting image.
 
-This work is done as a submission for the Image-based Measurements class' final project.
-
 ## References
 
 [1] Tom Mertens, Jan Kautz, and Frank Van Reeth. 2007. Exposure Fusion. In Proceedings of the 15th Pacific Conference on Computer Graphics and Applications (PG '07). IEEE Computer Society, USA, 382–390. DOI:https://doi.org/10.1109/PG.2007.23
@@ -38,3 +36,6 @@ This work is done as a submission for the Image-based Measurements class' final 
 Packages used for the project:
 1. [Scikit-image](https://scikit-image.org/)
 2. [OpenCV](https://opencv.org/)
+
+
+This work is done as a submission for the Image-based Measurements class' final project.
