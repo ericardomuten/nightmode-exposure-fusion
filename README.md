@@ -26,8 +26,8 @@ The images need to be aligned to cope with little spatial shifts between images 
 - The source RGB image is then shifted based on this shift in pixel values. The resulting image is the output of image registration. <br>
 
 #### C. Exposure Fusion
-1. Mertens exposure fusion algorithm[[1](https://dl.acm.org/doi/abs/10.1109/PG.2007.23)] is carried out using the first RGB image (RGB source of the reference) and all image registration's output as the input.
-2. A Gaussian filter is applied to smooth out the resulting image.
+1. Mertens exposure fusion algorithm[<a href="https://dl.acm.org/doi/abs/10.1109/PG.2007.23" target="_blank">1</a>] is carried out using the first RGB image (RGB source of the reference) and all image registration's output as the input.
+4. A Gaussian filter is applied to smooth out the resulting image.
 
 ## References
 
